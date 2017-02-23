@@ -53,20 +53,11 @@ display: inline-block;
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 .layer{
 	background-color: rgba(244,211,130, 0.6);
 }
 
-
-.hero h1{
-	font-size: 3em;
-	color: white;
-	padding-top: 0.3em;
-}
-
-.hero h3{
-	color: #5a4b42;
-}
 
 @media screen and (min-width: 640px){
 	.hero svg{
@@ -86,7 +77,7 @@ display: inline-block;
 h1{
 	font-family: 'Libre Baskerville', serif;
 	color: #A87536;
-	font-size: 2em;
+	font-size: 1.7em;
 }
 
 h2{
@@ -120,9 +111,10 @@ p{
 	list-style: none;
 }
 
-.main-content img{
+.main-content {
 	width: 100%;
 }
+
 .home-main #map{
 	margin-bottom: 5%;
 }
@@ -141,7 +133,7 @@ p{
 }
 
 .home-main .fa{
-	color: #6acce0;
+	color: #564436;
 	margin: auto;
 }
 
@@ -161,45 +153,16 @@ p{
 	font-family: 'Raleway', sans-serif;
 }
 
+
 /* FOOTER */
 
 .footer{
-  background-color: #564436;
+  background-color: #fff;
   width: 100%;
   bottom: 0;
+  position: center;
  }
 
-
-footer .fa{
-	padding-top: 0.3em;
-	width: 22%;
-	padding-left: 2%;
-}
-
-footer ul{
-	padding-top: 0.3em;
-	list-style: none;
-}
-
-footer a{
-	color: #5a4b42;
-	font-family: 'Raleway', sans-serif;
-}
-
-footer a:hover{
-	color: #698c80;
-}
-
-footer h3{
-	text-align: center;
-}
-
-.footer {
-	padding-top: 0.3em;
-	display: block;
-	margin: auto;
-	fill: #fff;
-}
 
 
 
